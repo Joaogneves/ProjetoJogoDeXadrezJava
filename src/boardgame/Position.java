@@ -2,7 +2,7 @@ package boardgame;
 
 public class Position {
 	private Integer row;
-	private Integer Collunm;
+	private Integer Colunm;
 	
 	public Position() {
 	}
@@ -10,7 +10,7 @@ public class Position {
 	public Position(Integer row, Integer collunm) {
 		super();
 		this.row = row;
-		Collunm = collunm;
+		Colunm = collunm;
 	}
 
 	public Integer getRow() {
@@ -21,12 +21,12 @@ public class Position {
 		this.row = row;
 	}
 
-	public Integer getCollunm() {
-		return Collunm;
+	public Integer getColunm() {
+		return Colunm;
 	}
 
-	public void setCollunm(Integer collunm) {
-		Collunm = collunm;
+	public void setColunm(Integer colunm) {
+		Colunm = colunm;
 	}
 	
 	public void setValues(int row, int collunm) {
@@ -34,7 +34,7 @@ public class Position {
 
 	@Override
 	public String toString() {
-		return "Position [row=" + row + ", Collunm=" + Collunm + "]";
+		return "Position [row=" + row + ", Colunm=" + Colunm + "]";
 	}
 	
 	
